@@ -1,0 +1,1 @@
+.body{height:60vh;display:flex;align-items:center;justify-content:center}.mask-phone{width:300px;padding:10px;background-color:#f0f8ff;border:1px solid grey;border-radius:8px}.mask-phone:not(:last-child){margin-right:20px}

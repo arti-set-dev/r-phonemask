@@ -1,2 +1,20 @@
-# r-phonemask
-phonemask plugin
+# phoneMask 
+---
+## Описание плагина
+
+Простой плагин маски телефона, пропускающий как российский формат телефона, так и не российский.  Демо: https://codepen.io/arti-set-dev/pen/GRBBMWQ
+
+## Загрузка и инициализация
+
+Для загрузки введите команду: `npm i r-phonemask`.
+
+после загрузки перед инициализацией пропишите класс, id, либо любой дата атрибут. 
+
+Например:
+```html 
+ <input type="tel" class="input mask-phone">
+```
+Для инициализации пропишите следующий код: 
+```js
+const maskPhone = new MaskPhone('.mask-phone');
+```
